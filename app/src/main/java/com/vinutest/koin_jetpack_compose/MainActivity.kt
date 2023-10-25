@@ -3,7 +3,6 @@ package com.vinutest.koin_jetpack_compose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.viewModels
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,7 +13,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.vinutest.koin_jetpack_compose.data.DefaultData
 import com.vinutest.koin_jetpack_compose.data.UserStateHolder
 import com.vinutest.koin_jetpack_compose.presentation.ui.UserViewModel
